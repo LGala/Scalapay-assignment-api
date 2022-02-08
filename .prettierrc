@@ -1,0 +1,21 @@
+{
+  "tabWidth": 2,
+  "proseWrap": "always",
+  "printWidth": 120,
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.yml",
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
