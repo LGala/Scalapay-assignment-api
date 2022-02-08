@@ -5,7 +5,7 @@
 
 ## run project
 
-* `yarn start` 
+* `yarn start` will make the server run at [8080](http://localhost:8080)
 
 ## test project
 
