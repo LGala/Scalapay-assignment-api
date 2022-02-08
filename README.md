@@ -16,6 +16,6 @@
 
 # API documentation
  
-swagger [there](http://localhost:8080/documentation/static/index.html)
+Once the server is deployed you can look at the Swagger [there](http://localhost:8080/documentation/static/index.html)
 * POST /orders is the technical assignment implementation
 * GET /info is just a test 
