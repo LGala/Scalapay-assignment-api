@@ -8,6 +8,7 @@
 ## run the project
 
 * `yarn start` will make the server run at [8080](http://localhost:8080) (keep attention that this project is made to run at this port!)
+* if you arrived at this point you can run the [client](https://github.com/LGala/Scalapay-assignment-client) 
 
 ## test the project
 
