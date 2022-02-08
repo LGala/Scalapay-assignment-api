@@ -19,7 +19,13 @@ export const createOrderService = async orderData => {
     const response = await fetch(url, body);
     const responseBody = await response.json();
 
-    console.log(responseBody);
+    if ([responseBody?.httpStatusCode, responseBody.message?.status].some(msg => msg === 400)) {
+      throw {
+        statusCode: 400,
+        error: "Bad Request",
+        message: responseBody.message?.errors?.[0].messages || responseBody.message
+      };
+    }
 
     return responseBody;
   } catch (error) {
