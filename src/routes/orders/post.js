@@ -214,7 +214,7 @@ export const createOrdersRoute = {
       },
       400: {
         type: "object",
-        description: "some required property are missing or some paramater is not correct",
+        description: "some required property are missing or some paramaters aren't correct",
         properties: {
           statusCode: { type: "integer" },
           error: { type: "string" },
